@@ -1,0 +1,39 @@
+Layout:
+display, position, top/right/bottom/left, float, clear, z-index, overflow
+
+Box Models:
+margin, padding, border, width, height, box-sizing
+
+Text:
+color, font-family/size/weight, line-height, letter-spacing, text-align, text-decoration
+
+
+Layout:
+  – display: flex | grid | block | inline
+  – justify-content: ...
+  – align-items: ...
+
+Typography:
+  – font-size: rem | em | px
+  – font-family: ...
+  – letter-spacing: ...
+
+
+<video
+        class="bg-video"
+        autoplay // starts playing automatically
+        muted // audio muted
+        loop // loops video once it ends
+        playsinline
+>
+
+  .bg-video {
+    position: fixed;    /* take it out of the flow & pin to viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;       /* full browser width */
+    height: 100vh;      /* full browser height */
+    object-fit: cover;  /* fill & crop to preserve aspect ratio */
+    z-index: -1;        /* behind everything */
+    pointer-events: none; /* so clicks still hit your links */
+  }
