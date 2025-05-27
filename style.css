@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=EB+Garamond:ital@0;1&display=swap');
+/* Tailwind for later */
 @import "tailwindcss";
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=EB+Garamond:ital@0;1&display=swap');
 
 body {
     padding: 0;
     margin: 0;
 }
 
+/* END FONTS */
 
+/* GENERAL */
 .bg-video {
   position: fixed;    /* take it out of the flow & pin to viewport */
   top: 0;
@@ -18,7 +23,6 @@ body {
   pointer-events: none;
 }
 
-
 header {
     position: relative;
     z-index: 1;
@@ -28,8 +32,7 @@ header {
     padding: 1rem 2.5rem;   
 }
 
-
-.logo {
+.name-logo {
     color: white;
     font-family: "EB Garamond", serif;
     font-size: 3rem;
@@ -38,11 +41,9 @@ header {
     margin: 0;
 }
 
-
 nav {
     font-family: "Anaheim", sans-serif;
 }
-
 
 .nav-links {
     display: flex;
@@ -54,7 +55,6 @@ nav {
     padding: 0;
 }
 
-
 .nav-links a {
     color: white;
     text-decoration: none;
@@ -62,7 +62,6 @@ nav {
     letter-spacing: -1px;
     font-size: 2rem;
 }
-
 
 .nav-links a:hover {
     color: white;

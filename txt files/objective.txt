@@ -1,0 +1,7 @@
+Implement:
+    - Header and footer with fetch for rendering
+
+
+Frameworks:
+    - Bootstrap
+    - Tailwind
