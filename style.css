@@ -4,14 +4,14 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=EB+Garamond:ital@0;1&display=swap');
 
+/* END FONTS */
+
+/* GENERAL */
 body {
     padding: 0;
     margin: 0;
 }
 
-/* END FONTS */
-
-/* GENERAL */
 .bg-video {
   position: fixed;    /* take it out of the flow & pin to viewport */
   top: 0;
@@ -68,3 +68,45 @@ nav {
     text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* white background */
+  color: black;            /* dark text */
+  padding: 1rem 2rem;      /* tweak vertical/horizontal padding */
+  text-align: center;      /* center the content */
+  z-index: 50;             /* make sure it sits above other page elements */
+}
+
+/* use a normal hyphen here */
+.welcome-img {
+    position: relative;
+    height: 40vh;
+}
+
+.welcome-img img {
+    position: absolute;
+    left: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
+    height: auto;
+}
+
+.journal-img {
+    position: relative;
+    height: 40vh;
+}
+
+.journal-img img {
+    position: absolute;
+    left: 350px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 300px;
+    height: auto;
+}
+
